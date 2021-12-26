@@ -1,0 +1,18 @@
+/* homepage styles */
+
+@font-face {
+  font-family: Aquire;
+  src: url("fonts/aquire.otf") format("opentype");
+}
+
+* {
+  background-color: #1b1b1b;
+}
+
+.title {
+  margin-top: 3%;
+  margin-left: 5%;
+  font-family: "Aquire", serif;
+  font-size: 75px;
+  color: #f3f3f3;
+}
