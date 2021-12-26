@@ -9,10 +9,57 @@
   background-color: #1b1b1b;
 }
 
-.title {
-  margin-top: 3%;
-  margin-left: 5%;
+.top-bar {
+  height: 75px;
+  display: flex;
+  margin-top: 2.5%;
   font-family: "Aquire", serif;
   font-size: 75px;
+  color: #f3f3f3;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+#logo {
+  position: relative;
+  right: 20px;
+  justify-content: center;
+}
+
+.angle-brackets {
+  font-family: "Sora", sans-serif;
+  font-weight: 1000;
+  color: aquamarine;
+}
+
+.nav-links {
+  margin-top: 2.5%;
+  display: inline-block;
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+  color: #f3f3f3;
+}
+
+.nav-links.right {
+  position: relative;
+  right: 30px;
+}
+
+.nav-links:hover {
+  font-weight: bolder;
+  border-bottom: 1px solid aquamarine;
+  transition: border-bottom 0.5s;
+}
+
+#caption {
+  margin-top: 2%;
+  font-family: "Sora", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 5px;
   color: #f3f3f3;
 }
